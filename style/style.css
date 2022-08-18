@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: #851E2F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 0;
+}
+
+header span {
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 71px;
+    color: #fff;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+header p {
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.title img {
+    height: auto;
+    width: 88px;
+}
+
+.title {
+    margin: 50px 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.title h1 {
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 51px;
+}
+
+.sobre .text p {
+    width: 90%;
+    max-width: 769px;
+    height: auto;
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 37px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-img {
+    width: 100%;
+    height: 800px;
+    background-image: url('../imgs/img-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-img .box-text-img {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.banner-img .box-text-img h2 {
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    color: #fff;
+}
+
+.banner-img .box-text-img > p {
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #fff;
+}
+
+.box-text-img {
+    width: 400px;
+    height: auto;
+    text-align: center;
+    padding-top: 300px;
+    padding-left: 200px;
+}
+
+.atividade {
+    margin: 50px 0;
+}
+
+.atividade h2 {
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+}
+
+.atividade p {
+    width: 90%;
+    max-width: 900px;
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+footer {
+    background-color: #851E2F;
+    height: 284px;
+    width: 100%;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+footer h3 {
+    margin-top: 30px;
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    color: #fff;
+    overflow: hidden;
+}
+
+footer p {
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+}
+
+footer img {
+    height: 58px;
+    width: 58px;
+}
+
+.midias-sociais {
+    display: flex;
+    gap: 50px;
+}
+
+
+/* Responsividade */
+
+@media only screen and (max-width: 530px) {
+    .title {
+        gap: 50px;
+        width: 90%;
+        max-width: 90%;
+    }
+
+    .title img {
+        width: 50px;
+        height: auto;
+    }
+
+    .box-text-img {
+        padding-left: 0;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .atividade p {
+        text-align: justify;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 340px) {
+    .title img {
+        display: none;
+    }
+
+    header {
+        padding: 40px;
+    }
+}
