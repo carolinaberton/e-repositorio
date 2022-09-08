@@ -144,7 +144,26 @@ header p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
 
+.banner-img-6{
+    width: 100%;
+    max-width: 100%;
+    height: 800px;
+    background-image: url('../imgs/atividade4/desastre.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-img-7{
+    width: 100%;
+    max-width: 100%;
+    height: 800px;
+    background-image: url('../imgs/atividade4/game.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
  .banner-img2 .box-text-img{
@@ -153,7 +172,7 @@ header p {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    padding: 50px 0 0 450px;
+    padding: 50px 0 0 1350px;
 }
 
 .banner-img4 .box-text-img {
@@ -162,7 +181,66 @@ header p {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    padding: 50px 0 0 450px;
+    padding: 50px 0 0 100px;
+}
+
+.banner-img-6 .box-text-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0 0 100px;
+}
+
+.banner-img-7 .box-text-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #fff !important;
+    padding: 500px 0;
+}
+
+.banner-img-7 h2 {
+    color: #fff !important;
+}
+
+.atividade .box-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.atividade .box-imgs .imgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: justify;
+}
+
+.atividade .box-imgs .imgs span {
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+}
+
+.atividade .box-imgs img {
+    width: 400px;
+    height: 225px;
+    border-radius: 5px;
+}
+
+.atividade .box-imgs span {
+    width: 400px;
 }
 
 
@@ -230,7 +308,7 @@ header p {
 
 .atividade p {
     width: 90%;
-    max-width: 900px;
+    max-width: 1300px;
     font-family: 'Francois One';
     font-style: normal;
     font-weight: 400;
@@ -238,6 +316,36 @@ header p {
     line-height: 31px;
     text-align: justify;
     margin: 50px auto;
+}
+
+.section-img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.section-img-3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 50px 0;
+}
+
+.section-img-3 h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.section-img img {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 footer {
